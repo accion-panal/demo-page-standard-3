@@ -2892,3 +2892,24 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+.mapboxgl-canvas-container {
+  width: 1920px;
+  height: 80vh !important;
+  border-radius: 15px;
+}
+
+.mapboxgl-canvas {
+  width: max-content !important;
+}
+
+#map {
+  width: 100% !important;
+  height: 45% !important;
+  border-radius: 5px !important;
+}
+
+.initialMap {
+  height: 0 !important;
+  overflow: hidden;
+}
